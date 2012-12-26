@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B137E8A5168B57B700B4E902 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137E8A4168B57B700B4E902 /* UIKit.framework */; };
+		B137E8A7168B57B700B4E902 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137E8A6168B57B700B4E902 /* Foundation.framework */; };
+		B137E8A9168B57B700B4E902 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137E8A8168B57B700B4E902 /* CoreGraphics.framework */; };
+		B137E8AF168B57B700B4E902 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B137E8AD168B57B700B4E902 /* InfoPlist.strings */; };
+		B137E8B1168B57B700B4E902 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B137E8B0168B57B700B4E902 /* main.m */; };
+		B137E8B5168B57B700B4E902 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B137E8B4168B57B700B4E902 /* AppDelegate.m */; };
+		B137E8B7168B57B700B4E902 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B137E8B6168B57B700B4E902 /* Default.png */; };
+		B137E8B9168B57B700B4E902 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B137E8B8168B57B700B4E902 /* Default@2x.png */; };
+		B137E8BB168B57B700B4E902 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B137E8BA168B57B700B4E902 /* Default-568h@2x.png */; };
+		B137E8BE168B57B700B4E902 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B137E8BD168B57B700B4E902 /* ViewController.m */; };
+		B137E8C1168B57B700B4E902 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B137E8BF168B57B700B4E902 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B137E8A0168B57B700B4E902 /* CamBlind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CamBlind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B137E8A4168B57B700B4E902 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B137E8A6168B57B700B4E902 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B137E8A8168B57B700B4E902 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B137E8AC168B57B700B4E902 /* CamBlind-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CamBlind-Info.plist"; sourceTree = "<group>"; };
+		B137E8AE168B57B700B4E902 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B137E8B0168B57B700B4E902 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B137E8B2168B57B700B4E902 /* CamBlind-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CamBlind-Prefix.pch"; sourceTree = "<group>"; };
+		B137E8B3168B57B700B4E902 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B137E8B4168B57B700B4E902 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B137E8B6168B57B700B4E902 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B137E8B8168B57B700B4E902 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B137E8BA168B57B700B4E902 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B137E8BC168B57B700B4E902 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B137E8BD168B57B700B4E902 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B137E8C0168B57B700B4E902 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B137E89D168B57B700B4E902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B137E8A5168B57B700B4E902 /* UIKit.framework in Frameworks */,
+				B137E8A7168B57B700B4E902 /* Foundation.framework in Frameworks */,
+				B137E8A9168B57B700B4E902 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B137E895168B57B700B4E902 = {
+			isa = PBXGroup;
+			children = (
+				B137E8AA168B57B700B4E902 /* CamBlind */,
+				B137E8A3168B57B700B4E902 /* Frameworks */,
+				B137E8A1168B57B700B4E902 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B137E8A1168B57B700B4E902 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B137E8A0168B57B700B4E902 /* CamBlind.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B137E8A3168B57B700B4E902 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B137E8A4168B57B700B4E902 /* UIKit.framework */,
+				B137E8A6168B57B700B4E902 /* Foundation.framework */,
+				B137E8A8168B57B700B4E902 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B137E8AA168B57B700B4E902 /* CamBlind */ = {
+			isa = PBXGroup;
+			children = (
+				B137E8B3168B57B700B4E902 /* AppDelegate.h */,
+				B137E8B4168B57B700B4E902 /* AppDelegate.m */,
+				B137E8BC168B57B700B4E902 /* ViewController.h */,
+				B137E8BD168B57B700B4E902 /* ViewController.m */,
+				B137E8BF168B57B700B4E902 /* ViewController.xib */,
+				B137E8AB168B57B700B4E902 /* Supporting Files */,
+			);
+			path = CamBlind;
+			sourceTree = "<group>";
+		};
+		B137E8AB168B57B700B4E902 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B137E8AC168B57B700B4E902 /* CamBlind-Info.plist */,
+				B137E8AD168B57B700B4E902 /* InfoPlist.strings */,
+				B137E8B0168B57B700B4E902 /* main.m */,
+				B137E8B2168B57B700B4E902 /* CamBlind-Prefix.pch */,
+				B137E8B6168B57B700B4E902 /* Default.png */,
+				B137E8B8168B57B700B4E902 /* Default@2x.png */,
+				B137E8BA168B57B700B4E902 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B137E89F168B57B700B4E902 /* CamBlind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B137E8C4168B57B700B4E902 /* Build configuration list for PBXNativeTarget "CamBlind" */;
+			buildPhases = (
+				B137E89C168B57B700B4E902 /* Sources */,
+				B137E89D168B57B700B4E902 /* Frameworks */,
+				B137E89E168B57B700B4E902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CamBlind;
+			productName = CamBlind;
+			productReference = B137E8A0168B57B700B4E902 /* CamBlind.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B137E897168B57B700B4E902 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = thespider;
+			};
+			buildConfigurationList = B137E89A168B57B700B4E902 /* Build configuration list for PBXProject "CamBlind" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B137E895168B57B700B4E902;
+			productRefGroup = B137E8A1168B57B700B4E902 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B137E89F168B57B700B4E902 /* CamBlind */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B137E89E168B57B700B4E902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B137E8AF168B57B700B4E902 /* InfoPlist.strings in Resources */,
+				B137E8B7168B57B700B4E902 /* Default.png in Resources */,
+				B137E8B9168B57B700B4E902 /* Default@2x.png in Resources */,
+				B137E8BB168B57B700B4E902 /* Default-568h@2x.png in Resources */,
+				B137E8C1168B57B700B4E902 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B137E89C168B57B700B4E902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B137E8B1168B57B700B4E902 /* main.m in Sources */,
+				B137E8B5168B57B700B4E902 /* AppDelegate.m in Sources */,
+				B137E8BE168B57B700B4E902 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B137E8AD168B57B700B4E902 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B137E8AE168B57B700B4E902 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B137E8BF168B57B700B4E902 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B137E8C0168B57B700B4E902 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B137E8C2168B57B700B4E902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B137E8C3168B57B700B4E902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B137E8C5168B57B700B4E902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CamBlind/CamBlind-Prefix.pch";
+				INFOPLIST_FILE = "CamBlind/CamBlind-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B137E8C6168B57B700B4E902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CamBlind/CamBlind-Prefix.pch";
+				INFOPLIST_FILE = "CamBlind/CamBlind-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B137E89A168B57B700B4E902 /* Build configuration list for PBXProject "CamBlind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B137E8C2168B57B700B4E902 /* Debug */,
+				B137E8C3168B57B700B4E902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B137E8C4168B57B700B4E902 /* Build configuration list for PBXNativeTarget "CamBlind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B137E8C5168B57B700B4E902 /* Debug */,
+				B137E8C6168B57B700B4E902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B137E897168B57B700B4E902 /* Project object */;
+}
